@@ -278,7 +278,7 @@ a:hover {
     text-transform: uppercase;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     * {
         margin: 0;
         padding: 0;
