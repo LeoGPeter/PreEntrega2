@@ -114,27 +114,37 @@ a:hover {
     color: white;
 }
 
-.img-catalogo {
+
+
+.main-modelos img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 600px;
+    padding: 4px;
+    
+}
+
+
+.img-carrusel{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+}
+
+.video-catalogo {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-
-.main-modelos img {
-    height: 450px;
+    padding: 20px;
     margin: 30px;
 }
 
-.main-modelos .cuadrado-led {
-    width: 400px;
-    margin: 30px;
-}
-
-.main-modelos .espejo-touch {
-    margin: 30px;
-    padding: 0px 0px 0px 100px;
-}
 
 .main .Empresa {
     font-family: "TCCC-UnityHeadline-Bold", "TCCC-UnityHeadline", sans-serif;
